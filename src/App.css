@@ -1,38 +1,101 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.page-manintance__container{
+  display: flex;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-manintance__container .section1{
+  flex: 0 0 35%;
+  background-color:rgb(226, 226, 226);
+  padding-top: 10rem;
+}
+.page-manintance__container .section1 h1{
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 0rem;
+  color: #C8B346;
+}
+.page-manintance__container .section1 h2{
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  color: #C8B346;
+}
+.page-manintance__container .section1 h3{
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.page-manintance__container .section2{
+  flex: 1 1 0%;
+  background: url(./img/Bg-1.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.page-manintance__container .section2_bg{
+  
+  background-color: #00000075;
+  height: 100vh;
+}
+.page-manintance__container .section2 a{
+  text-decoration: none;
+  color: #000;
+}
+.page-manintance__container .section2 .abouttxt{
+  display: flex;
+  justify-content: center;
+}
+.page-manintance__container .section2 img{
+  padding-top: 2%;
+  width: 12rem;
+}
+.page-manintance__container .section2 h2{
+  margin: 0;
+}
+.page-manintance__container .section2 p{
+  width: 80%;
+  text-align: center;
+}
+
+.page-manintance__container .section2 .contact-us{
+  display: flex;
+  justify-content: space-around;
+}
+.page-manintance__container .section2 .contact-us .contact1,.contact2,.contact3{
+  background-color:rgb(226, 226, 226);
+  height: 160px;
+  width: 200px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.page-manintance__container .section2 .contact-us .contact1 span,.contact2 span,.contact3 span{ 
+  color: #C8B346;
+  padding-top: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.page-manintance__container ul {
+  list-style: none;
+  padding: 0;
+  
+}
+.page-manintance__container li{
+  font-size: 16px;
+  color: #fff;
+  
+}
+.page-manintance__container .section2 ul li a{
+  color: #fff;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
