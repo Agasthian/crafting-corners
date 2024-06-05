@@ -12,7 +12,7 @@ const App = () => {
           <h1>Crafting Corners.</h1>  
           <h3>Interior Design firm,  Chennai</h3>
           <p>We build beautiful things for creative people.</p>
-          <br /><br />
+          
           <h2>We're launching soon</h2>
         </div>
         
@@ -40,7 +40,7 @@ const App = () => {
                     location_on
                   </span>
                   <br />
-                 <a href="https://craftingcorners.co.in/">Chennai, India</a> 
+                 <a href="https://craftingcorners.co.in/fa">Chennai, India</a> 
                 </div>
                 <div className="contact3">
                   <span class="material-symbols-outlined">

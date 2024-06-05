@@ -10,12 +10,20 @@
 .page-manintance__container{
   display: flex;
   height: 100%;
+  
+@media only screen and (max-width: 600px) {
+    flex-direction: column;  
+  }
 }
+
 
 .page-manintance__container .section1{
   flex: 0 0 35%;
   background-color:rgb(226, 226, 226);
   padding-top: 10rem;
+  @media only screen and (max-width: 600px) {
+    padding-top: 4rem;
+  }
 }
 .page-manintance__container .section1 h1{
   font-size: 48px;
@@ -27,6 +35,10 @@
   font-family: "Sacramento", cursive;
   font-size: 40px;
   color: #C8B346;
+  margin-top: 4rem;
+  @media only screen and (max-width: 600px) {
+    margin-top: 2rem;
+  }
 }
 .page-manintance__container .section1 h3{
 
@@ -41,9 +53,11 @@
   color: #fff;
 }
 .page-manintance__container .section2_bg{
-  
   background-color: #00000075;
   height: 100vh;
+  @media only screen and (max-width: 600px) {
+    height: 160vh; 
+  }
 }
 .page-manintance__container .section2 a{
   text-decoration: none;
@@ -68,6 +82,11 @@
 .page-manintance__container .section2 .contact-us{
   display: flex;
   justify-content: space-around;
+  @media only screen and (max-width: 600px) {
+   flex-direction: column; 
+   align-content: center;
+    flex-wrap: wrap;
+  }
 }
 .page-manintance__container .section2 .contact-us .contact1,.contact2,.contact3{
   background-color:rgb(226, 226, 226);
@@ -76,6 +95,11 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  @media only screen and (max-width: 600px) {
+    height: 140px;
+    width: 180px;
+    margin-bottom: 2rem;
+  }
 }
 .page-manintance__container .section2 .contact-us .contact1 span,.contact2 span,.contact3 span{ 
   color: #C8B346;
