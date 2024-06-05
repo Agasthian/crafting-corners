@@ -33,14 +33,14 @@ const App = () => {
                   call
                 </span>
                 <br />
-                <a href="#">Phone: <br /> +91-996-265-6247</a>
+                <a href="https://craftingcorners.co.in/">Phone: <br /> +91-996-265-6247</a>
                 </div>
                 <div className="contact2">
                   <span class="material-symbols-outlined">
                     location_on
                   </span>
                   <br />
-                 <a href="#">Chennai, India</a> 
+                 <a href="https://craftingcorners.co.in/">Chennai, India</a> 
                 </div>
                 <div className="contact3">
                   <span class="material-symbols-outlined">
